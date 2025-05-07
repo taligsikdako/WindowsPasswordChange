@@ -37,7 +37,7 @@ function PasswordChange {
 }
 
 PasswordChange
-Start-Process .\spin_password_confirmation.bat $targetusers.username
+Start-Process .\Password_confirmation.bat $targetusers.username
 
 } catch {
 
